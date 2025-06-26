@@ -1,5 +1,5 @@
 {
-    "name": "translation-app/grid",
+    "name": "taktik/grid",
     "description": "Grid component for Laravel applications",
     "type": "library",
     "license": "MIT",
