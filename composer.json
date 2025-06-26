@@ -1,0 +1,34 @@
+{
+    "name": "translation-app/grid",
+    "description": "Grid component for Laravel applications",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Translation App",
+            "email": "info@translation-app.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "illuminate/support": "^10.0",
+        "livewire/livewire": "^3.0",
+        "maatwebsite/excel": "^3.1",
+        "spatie/laravel-data": "^3.0",
+        "livewire/flux-pro": "^2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Grid\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Grid\\GridServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
